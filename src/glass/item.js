@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 class Item extends Component {
     render() {
         const {glass}=this.props;
-        console.log(glass);
         return (
             <>
                 <div className='col-md-2'>
