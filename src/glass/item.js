@@ -6,7 +6,7 @@ class Item extends Component {
         return (
             <>
                 <div className='col-md-2'>
-                    <button className='btn btn-info' onClick={() => {
+                    <button className='btn btn-default border' onClick={() => {
                         this.props.comunicateFather(glass)
                     }}>
                         <img className='img-fluid' src={glass.url} />
